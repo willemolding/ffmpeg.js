@@ -174,6 +174,7 @@ FFMPEG_COMMON_ARGS = \
 	--disable-vdpau \
 	$(addprefix --enable-decoder=,$(COMMON_DECODERS)) \
 	$(addprefix --enable-demuxer=,$(COMMON_DEMUXERS)) \
+	--enable-muxer=hls \
 	--enable-protocol=file \
 	$(addprefix --enable-filter=,$(COMMON_FILTERS)) \
 	--disable-bzlib \

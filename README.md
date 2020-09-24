@@ -1,5 +1,7 @@
 # ffmpeg.js
 
+This fork adds HLS support by adding a single flag to the Makefile :)
+
 [![NPM](https://nodei.co/npm/ffmpeg.js.png?downloads=true)](https://www.npmjs.com/package/ffmpeg.js)
 
 This library provides FFmpeg builds ported to JavaScript using [Emscripten project](https://github.com/emscripten-core/emscripten). Builds are optimized for in-browser use: minimal size for faster loading, asm.js, performance tunings, etc. Though they work in Node as well.
